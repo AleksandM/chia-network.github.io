@@ -15,7 +15,7 @@ Here is the main point which is technically wrong: "Financial technologies that 
  
 By technically wrong, I mean I've been building exactly what they're talking about. Programmable blockchains allow you to have exactly the business logic you want around moving around money.
  
-Banks provide these services in a way which has very little transparency or end user control (and often implicitly enables a lot of fraud in the process). On a blockchain you can, in principle, make it follow any process you want with complete transparency and end user control
+Banks provide these services in a way which has very little transparency or end user control (and often implicitly enables a lot of fraud in the process). On a blockchain you can, in principle, make it follow any process you want with complete transparency and end user control.
  
 Working on proper custody solutions is terrifying, not because there's anything wrong with what you're building, but because you realize that properly defining very basic processes is generic to money management, not just blockchains, and is never done ever.
  
@@ -25,10 +25,10 @@ I've been ranting about this for _years_. Bitcoin feels like carrying around sui
  
 The new custody stuff I'm working on is something we're going to dogfood soon, and productize after that.
  
-Also finality is not the bogeyman they make it out to be. Finality is absolutely _critical_ in certain places, like fed wire. There's no law saying that banks have to use fed wire, they do it because that's the only way to get finality.
+Also finality is not the bogeyman they make it out to be. Finality is absolutely _critical_ in certain places, like Fedwire. There's no law saying that banks have to use fed wire, they do it because that's the only way to get finality.
  
 The problem with a bank providing finality is that law enforcement can come in and say that a certain transaction was fraudulent, the money has to be sent back, and the intermediary would _have_ to enforce it.
-Fed wire is run by the government, so if anyone tries to sue them saying they had to reverse a transaction, they can tell them to pound sand. If you want to reverse a wire you have to go to the recipient and ask for the money back
+Fedwire is run by the government, so if anyone tries to sue them saying they had to reverse a transaction, they can tell them to pound sand. If you want to reverse a wire you have to go to the recipient and ask for the money back
  
 Banks keep using this system because to them, finality is a _good_ thing. Interbank transfers have to truly settle at some point or you'd never know who had what.
  
